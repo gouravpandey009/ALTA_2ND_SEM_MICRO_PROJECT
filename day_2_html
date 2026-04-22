@@ -1,0 +1,26 @@
+<!-- ================= DAY 2 START ================= -->
+
+<!-- NAVBAR (HEADER ke upar add karo) -->
+<nav>
+    <h2>MyPortfolio</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <!-- NEW SECTION LINK -->
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- ================= CHANGE ================= -->
+<!-- REMOVE this line (ab iska use nahi hai) -->
+<!-- <hr> -->
+
+
+<!-- NEW SECTION: PROJECTS (Skills ke neeche add karo) -->
+<section id="projects">
+    <h2>Projects</h2>
+    <p>Coming soon...</p>
+</section>
+
+<!-- ================= DAY 2 END ================= -->
