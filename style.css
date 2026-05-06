@@ -84,3 +84,112 @@ footer {
     color: #666;
 }
 
+/* NAVBAR STYLING */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282852;
+    color: white;
+    padding: 15px 30px;
+}
+
+nav h2 {
+    margin: 0;
+    border: none;
+
+    color: #ffffff;          
+    font-size: 1.6rem;     
+    font-weight: 700;      
+    letter-spacing: 1px;     
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li {
+    background: none; 
+    border: none;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+}
+
+#projects p {
+    font-style: italic;
+    color: #9b9393;
+}
+
+
+/* PROJECT CONTAINER (Flexbox Layout) */
+.project-container {
+    display: flex;
+    /* Side by side layout */
+    justify-content: space-between;
+    gap: 20px;
+    /* Space between cards */
+    flex-wrap: wrap;
+    /*Screen chhoti hone par items next line me chale jayenge (responsive) */
+
+}
+
+/* PROJECT CARD DESIGN */
+.project-card {
+/* 
+  flex: [grow] [shrink] [basis];
+  1 = Yes, expand to fill extra space.
+  1 = Yes, shrink if the screen gets too small.
+  250px = The ideal starting width for this item.
+*/
+    flex: 1 1 250px;
+    /* Responsive width */
+    background: #f9f9f9;
+
+    padding: 20px;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    transition: transform 0.3s;
+}
+
+/* HOVER EFFECT */
+.project-card:hover {
+    transform: translateY(-5px);
+    /* Lift effect */
+}
+
+/* PROJECT TITLE */
+.project-card h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+/* BUTTON STYLE */
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+
+    background: #3498db;
+    color: white;
+
+    padding: 8px 12px;
+    border-radius: 5px;
+
+    text-decoration: none;
+}
+
+/* BUTTON HOVER */
+.project-card a:hover {
+    background: #2c3e50;
+}
